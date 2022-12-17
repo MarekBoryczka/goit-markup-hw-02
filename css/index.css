@@ -6,3 +6,14 @@ body {
 font-family: 'Roboto', sans-serif;
 }
 /*  font-family: 'Raleway', sans-serif;  */
+
+.filters .filter {
+   color: #212121;
+}
+.filters .filter:hover,
+.filters .filter:focus {
+  color: #2196F3;}
+
+  .logo {
+   color: #2196F3;
+  }

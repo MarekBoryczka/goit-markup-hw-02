@@ -7,25 +7,35 @@ font-family: 'Roboto', sans-serif;
 }
 /*  font-family: 'Raleway', sans-serif;  */
 
-.filters .filter {
+.filters .filter,
+.order {
    color: #212121;
 }
 .filters .filter:hover,
-.filters .filter:focus {
+.filters .filter:focus,
+.order:hover,
+.order:focus {
   color: #2196F3;}
 
   .logo {
    color: #2196F3;
   }
 
-  .navigation {
+  .navigations .navigation,
+  .adresses .adress,
+  .telmails .telmail {
    color: #212121;
   }
   .navigation:hover,
-  .navigation:focus {
+  .navigation:focus,
+  .adress:hover,
+  .adresss:focus,
+  .telmail:hover,
+  .telmail:focus {
    color: #2196F3;
   }
 
+  /*
   .adress {
    color: #212121;
   }
@@ -41,3 +51,4 @@ font-family: 'Roboto', sans-serif;
   .telmail:focus {
    color: #2196F3;
   }
+                        */

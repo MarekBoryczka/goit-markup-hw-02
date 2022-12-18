@@ -17,6 +17,11 @@ font-family: 'Roboto', sans-serif;
 .order:focus {
   color: #2196F3;}
 
+  .order,
+  .filters .filter {
+   cursor: pointer;
+  }
+
   .logo {
    color: #2196F3;
   }

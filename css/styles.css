@@ -75,7 +75,7 @@ background-color: var(--background-color);
   }
 
   .footer_adress {
-      color: var(--footer_logo-color);
+      color: var(--text_on_background-color);
    }
 
    .main_title {

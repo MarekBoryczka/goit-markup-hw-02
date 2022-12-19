@@ -1,0 +1,45 @@
+:root {
+   --brand-color: #2196F3;
+   --main-color: #212121;
+ }
+
+body {
+font-family: 'Roboto', sans-serif;
+color: var(--main-color);
+}
+/*  font-family: 'Raleway', sans-serif;  */
+
+.filters .filter,
+.order {
+   color: var(--main-color);
+}
+.filters .filter:hover,
+.filters .filter:focus,
+.order:hover,
+.order:focus {
+  color: var(--brand-color);
+}
+
+  .order,
+  .filters .filter {
+   cursor: pointer;
+  }
+
+  .logo {
+   color: var(--brand-color);
+  }
+
+  .navigations .navigation,
+  .adresses .adress,
+  .telmails .telmail {
+   color: var(--main-color);
+  }
+  .navigation:hover,
+  .navigation:focus,
+  .adress:hover,
+  .adresss:focus,
+  .telmail:hover,
+  .telmail:focus {
+   color: var(--brand-color);
+  }
+

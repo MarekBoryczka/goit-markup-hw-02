@@ -3,6 +3,7 @@
    --main-color: #212121;
    --background-color: #2F303A;
    --text_on_background-color: #FFFFFF;
+   --filter_background-color: #F5F4FA;
  }
 
 body {
@@ -11,57 +12,42 @@ color: var(--main-color);
 }
 /*  font-family: 'Raleway', sans-serif;  */
 
-footer {
-background-color: var(--background-color);
-}
-
-.filters .filter {
-   color: var(--main-color);
-}
-
-.filters .filter:hover,
-.filters .filter:focus {
-  color: var(--brand-color);
-}
-
 .order {
    color: var(--text_on_background-color);
    background-color: var(--brand-color);
 }
-
-
   .order,
-  .filters .filter {
+  .main_filter,
+  .footer_adress {
    cursor: pointer;
+  }
+
+   .span_logo,
+   .header_logo,
+   .footer_logo {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 35.96px;
+   text-decoration: none
   }
 
   .span_logo {
    color: var(--brand-color);
-   font-family: 'Raleway', sans-serif;
-   font-weight: 700;
-   font-size: 26px;
-   line-height: 35.96px;
   }
 
   .header_logo {
    color: var(--main-color);
-   font-family: 'Raleway', sans-serif;
-   font-weight: 700;
-   font-size: 26px;
-   line-height: 35.96px;
   }
 
   .footer_logo {
-   color: var(--footer_logo-color);
-   font-family: 'Raleway', sans-serif;
-   font-weight: 700;
-   font-size: 26px;
-   line-height: 35.96px;
+   color: var(--text_on_background-color);
   }
 
   .header_nav,
   .header_contact {
    color: var(--main-color);
+   text-decoration: none
   }
    
   
@@ -74,8 +60,16 @@ background-color: var(--background-color);
    color: var(--brand-color);
   }
 
-  .footer_adress {
-      color: var(--text_on_background-color);
+   .main_filter {
+   color: var(--main-color);
+   background-color: var(--filter_background-color);
+   border: none;
+   text-align: center;
+   }
+
+   .main_filter:hover,
+   .main_filter:focus {
+   color: var(--brand-color);
    }
 
    .main_title {
@@ -89,3 +83,14 @@ background-color: var(--background-color);
    .main_background {
       background-color: var(--background-color);
    }
+
+   footer {
+   background-color: var(--background-color);
+   }
+
+  .footer_adress {
+      color: var(--text_on_background-color);
+      font-style: normal;
+      text-decoration: none
+   }
+

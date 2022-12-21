@@ -69,7 +69,8 @@ color: var(--main-color);
 
    .main_filter:hover,
    .main_filter:focus {
-   color: var(--brand-color);
+   color: var(--text_on_background-color);
+   background-color: var(--brand-color);
    }
 
    .main_title {
